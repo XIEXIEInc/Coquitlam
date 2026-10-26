@@ -879,7 +879,7 @@ footer {
 <main>
 <section class="hero" id="home">
   <div class="container hero-grid">
-    <div>
+    <div> 
       <h1 class="hero-title">
         <span>日历上只是普通的一天</span>
         <span>也可以过得很有意思</span>
@@ -1279,6 +1279,31 @@ footer {
       font-size: 12px;
     }
   }
+  /* 缩小首页标题区域的米黄色背景留白 */
+@media (max-width: 760px) {
+  .hero-grid {
+    padding-top: 8px !important;
+    padding-bottom: 16px !important;
+    gap: 14px !important;
+  }
+
+  .hero-title {
+    margin-top: 6px !important;
+    margin-bottom: 8px !important;
+  }
+
+  .hero-calendar-inline {
+    margin-top: 6px !important;
+  }
+
+  .hero .actions {
+    margin-top: 14px !important;
+  }
+
+  .hero-photo {
+    min-height: 230px;
+  }
+}
 </style>
 
 <!-- 联系我们：微信、WhatsApp、电话 -->
